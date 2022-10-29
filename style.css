@@ -9,9 +9,10 @@ body {
 
 .newspaper-container {
     width: 700px;
-    border-radius: 30%;
+    border-radius: 1%;
     box-shadow: inset;
     padding: 2%;
+    background-color: white;
 }
 
 h1 {
@@ -25,3 +26,28 @@ h2 {
     font-family: 'Roboto Slab';
 }
 
+nav {
+    position: sticky;
+    top: 0em;
+    border-top: solid 1px #777;
+    border-bottom: solid 1px #777;
+    color: #777;
+    background-color: white;
+}
+
+nav li {
+    display: inline;
+    padding: 5px;
+    text-align: center;
+    border-color: #777;
+}
+
+a:link {
+    text-decoration: none;
+    color: #777;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #777;
+}
